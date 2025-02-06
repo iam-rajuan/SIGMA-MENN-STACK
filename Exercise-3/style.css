@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+    margin: 0;
+    /* padding: 0; */
+    /* padding-top: 10px; */
+    padding: 0;
+}
+
+body {
+    /* font-family: ; */
+    background-color: #EAEFF1;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 500px;
+    width: 320px;
+    margin: auto;
+    padding-top: 10px;
+    background-color: #FFFFFF;
+}
+
+img {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.capsul {
+    /* border: 1px solid black; */
+    /* margin: 10px; */
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+    font-size: 14px;
+}
+
+.old {
+    border: 1px solid gray;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.bus {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.des {
+    /* padding: 20px; */
+    /* margin: 10px; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #E0EFFF;
+    color: #1f60a7;
+    font-weight: bold;
+    width: 100px;
+    height: 45px;
+    margin-top: 20px;
+    /* margin-left: 35%; */
+    /* padding: 5px; */
+    font-size: 12px;
+    border-radius: 30px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

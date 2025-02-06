@@ -1,0 +1,35 @@
+body{
+    /* background-color: black; */
+    
+    
+}
+
+:root{
+    --color1: blue;
+    --color2: rgb(128, 128, 230);
+
+}
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding: 14px;
+    
+}
+.nav{
+    
+    background-color: var(--color2);
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.src{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
