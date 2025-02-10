@@ -18,7 +18,7 @@
 
     <script>
         async function testPost(){
-            let a = await fetch("/",{method: "DELETE"})
+            let a = await fetch("/",{method: "delete"})
             let b = await a.text()
             console.log(b);
             

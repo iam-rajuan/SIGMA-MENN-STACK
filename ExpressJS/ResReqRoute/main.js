@@ -5,7 +5,7 @@ const port = 3000;
 app.use(express.static("Public"));
 
 app.get("/", (req, res) => {
-  console.log("hey this is a get reques");
+  console.log("hey this is a get request");
   res.send("This is a GET request");
 });
 
