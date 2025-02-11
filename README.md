@@ -22,6 +22,7 @@ npm init -y
 - **Initialize npm**
 ```sh
 npm init
+npm init -y
 ```
 - **Install express**
 ```sh
