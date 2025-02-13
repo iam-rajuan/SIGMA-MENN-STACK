@@ -42,4 +42,8 @@ npm i --global nodemon
 ```sh
 nodemon file.js
 ```
+- **Start Nodemon**
+```sh
+nodemon file.js
+```
 
