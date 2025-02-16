@@ -3,7 +3,7 @@
 
 import express from "express";
 import mongoose from "mongoose";
-import { list, list } from "./models/list.js";
+import { list } from "./models/list.js";
 
 let conn = await mongoose.connect("mongodb://127.0.0.1:27017/list");
 
@@ -21,9 +21,9 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 app.get("/a", async (req, res) => {
-  let nlist = list.findOne({})
+  let nlist = await list.findOne({})
   console.log(nlist);
-  res.json({name: nlist.name})
+  res.json({name: nlist.name, value: nlist.value, type: nlist.type})
   
 });
 
