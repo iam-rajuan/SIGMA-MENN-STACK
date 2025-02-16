@@ -46,4 +46,11 @@ nodemon file.js
 ```sh
 nodemon file.js
 ```
+# Mongoose
 
+- **Install Mongoose**
+```sh
+npm init -y
+npm i mongoose
+npm i express@5
+```
