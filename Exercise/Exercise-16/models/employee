@@ -1,0 +1,14 @@
+const mongoose = require('mongoose');
+
+
+const employeeSchema = new mongoose.Schema({
+    name: String,
+    salary: String,
+    language: String,
+    city: String,
+    isManager: Boolean
+  });
+
+ const employee = mongoose.model('employee', employeeSchema);
+// export default employee;
+module.exports = employee;
