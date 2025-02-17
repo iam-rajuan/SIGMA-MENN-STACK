@@ -87,3 +87,5 @@ use("CRUD_DB");
 
 //DELETE
 db.getCollection('courses').deleteOne({price: 2000})
+
+// db.users.deleteMany({})
