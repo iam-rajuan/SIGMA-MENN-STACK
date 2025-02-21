@@ -34,15 +34,15 @@ app.use((req, res, next) => {
 
 // GET, POST, PUT, DELETE
 app.get("/", (req, res) => {
-  console.log("hey this is a get request for terminal");
+  console.log("hey this is a GET request for terminal");
   res.send("This is a GET request");
 });
 app.post("/", (req, res) => {
-  console.log("hey this is a post request");
+  console.log("hey this is a POST request");
   res.send("This is a POST request");
 });
 app.put("/", (req, res) => {
-  console.log("hey this is a DELETE request");
+  console.log("hey this is a PUT request");
   res.send("This is a PUT request");
 });
 app.delete("/", (req, res) => {
