@@ -1,0 +1,13 @@
+
+li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    gap: 35px;
+}
+.nav{
+    background-color: var(--nav-foot);
+    width: 100vw;
+    padding: 10px;
+}

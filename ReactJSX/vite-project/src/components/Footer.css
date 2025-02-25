@@ -1,0 +1,8 @@
+.Footer{
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    background-color: var(--nav-foot);
+    color: black;
+}
